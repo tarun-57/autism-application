@@ -1,0 +1,36 @@
+  .questions {
+    padding: 70px 0;
+    background: #0e0d12; 
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .questions-inner h1 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    background: linear-gradient(to bottom right, #00c488 4.15%, #01c6dc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+    width: auto;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .questions h1 {
+      font-size: 26px;
+      line-height: 34px;
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  
+    .questions {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  
+    .all-questions {
+      margin-top: 0;
+      margin: auto;
+    }
+  }
+  
